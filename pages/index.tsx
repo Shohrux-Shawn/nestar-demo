@@ -6,7 +6,6 @@ import { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <>
-    <Stack sx={{ background: green[300]}}> Header</Stack>
     <Container>
       <Stack flexDirection={"column"}>
         <Box>Popular Properties</Box>
@@ -15,7 +14,6 @@ const Home: NextPage = () => {
         <Box>Events</Box>
       </Stack>
     </Container>
-    <Stack sx={{ background: "#6f1e00ff"}}> Footer </Stack>
     </>
   );
 }
