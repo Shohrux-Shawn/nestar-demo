@@ -6,6 +6,9 @@ import TopProperties from "@/libs/components/homepage/TopProperties";
 import Advertisement from "@/libs/components/homepage/Advertisement";
 import { Stack } from "@mui/material";
 import { NextPage } from "next";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const Home: NextPage = () => {
   return (
